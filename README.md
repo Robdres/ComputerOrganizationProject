@@ -1,10 +1,21 @@
-Integrantes 
+## Integrantes:
 
 - Roberto Alvarado
-- Juan Sanchez
+- Juan Sánchez
 - Mateo Ruiz
 
+## Objetivos:
 
-            print()
-            for i in range(3):
-                call()
+- [] Realizar un análisis comparativo de las diferentes tecnologías para el manejo de memoria
+- [] Implementar en diferentes lenguajes de programación un programa para la multiplicación de matrices
+
+## Metodología:
+
+
+## Códigos implementados para cada lenguaje
+
+[Python](./code/python.md)
+
+## Resultados 
+
+## Conclusiones
