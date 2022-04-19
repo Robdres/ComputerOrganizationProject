@@ -11,10 +11,18 @@
 
 ## Metodología:
 
+## Script para probar los codigos
 
-## Códigos implementados para cada lenguaje
+Para correr cada script es necesario el compilador necesario para cada uno
 
-[Python](./code/python.md)
+## Multiplicacion de matrices en cada lenguaje
+
+[Python sin Numpy](./code/python.md)
+[Python con Numpy](./code/pythonNumpy.md)
+[Java](./code/java.md)
+[JavaScript](./code/javascript.md)
+[C++](./code/cpp.md)
+[Assembly](./code/assembly.md)
 
 ## Resultados 
 
