@@ -1,8 +1,8 @@
 ## Integrantes:
 
-- Roberto Alvarado
 - Juan Sánchez
 - Mateo Ruiz
+- Roberto Alvarado
 
 ## Objetivos:
 
@@ -11,19 +11,20 @@
 
 ## Metodología:
 
+
 ## Script para probar los codigos
 
-Para correr cada script es necesario el compilador necesario para cada uno
 
 ## Multiplicacion de matrices en cada lenguaje
 
-[Python sin Numpy](./code/python.md)
-[Python con Numpy](./code/pythonNumpy.md)
-[Java](./code/java.md)
-[JavaScript](./code/javascript.md)
-[C++](./code/cpp.md)
-[Assembly](./code/assembly.md)
+[Python sin Numpy](./code/python.md)\\
+[Python con Numpy](./code/pythonNumpy.md)\\
+[Java](./code/java.md)\\
+[JavaScript](./code/javascript.md)\\
+[C++](./code/cpp.md)\\
+[Assembly](./code/assembly.md)\\
 
 ## Resultados 
 
 ## Conclusiones
+
