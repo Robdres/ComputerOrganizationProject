@@ -1,0 +1,13 @@
+#!/bin/bash
+
+lan=$1
+
+if [[ $lan = 'python' ]]; then
+    python3 pythonNP.py & watch -n 1 "top -b -d 1 | head -n 10" > top.txt
+    cat top.txt | grep python3 | cut -c 34-39
+fi
+
+
+
+
+
