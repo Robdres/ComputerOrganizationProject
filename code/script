@@ -3,9 +3,27 @@
 lan=$1
 
 if [[ $lan = 'python' ]]; then
-    python3 pythonNP.py & watch -n 1 "top -b -d 1 | head -n 10" > top.txt
+    echo "Python process started "
+    python3 matMul.py & top -b -d 1 > top.txt
+    echo "Python process finished"
+    cat python.txt | grep python3 | cut -c 34-39 >> python.txt
+    echo "Check top.txt file for results"
+
+elif [[ $lan = 'java' ]]; then
+    echo "Java process started "
+    java matMul.jpp & top -b -d 1 | head -n 10 > top.txt
+    echo "Java process finished"
     cat top.txt | grep python3 | cut -c 34-39
+    echo "Check top.txt file for results"
+
+elif [[ $lan = 'js' ]]; then
+    echo "Java process started "
+    node matMul.jpp & top -b -d 1 | head -n 10 > top.txt
+    echo "Java process finished"
+    cat top.txt | grep python3 | cut -c 34-39
+    echo "Check top.txt file for results"
 fi
+
 
 
 

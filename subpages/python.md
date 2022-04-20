@@ -1,1 +1,5 @@
-# Implementacion en python sin el uso de numpy
+# Implementacion en python 
+
+Dentro de python 
+
+

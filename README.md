@@ -17,12 +17,11 @@
 
 ## Multiplicacion de matrices en cada lenguaje
 
-[Python sin Numpy](./code/python.md)\\
-[Python con Numpy](./code/pythonNumpy.md)\\
-[Java](./code/java.md)\\
-[JavaScript](./code/javascript.md)\\
-[C++](./code/cpp.md)\\
-[Assembly](./code/assembly.md)\\
+[Python](./subpages/python.md)\\
+[Java](./subpages/java.md)\\
+[JavaScript](./subpages/javascript.md)\\
+[C++](./subpages/cpp.md)\\
+[Assembly](./subpages/assembly.md)
 
 ## Resultados 
 

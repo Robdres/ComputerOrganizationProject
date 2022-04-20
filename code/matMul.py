@@ -19,3 +19,4 @@ def matMul (m1,m2):
     return m
 
 matMul(r,r)
+print("Finished")
