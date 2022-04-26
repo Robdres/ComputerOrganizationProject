@@ -19,7 +19,7 @@
 
 [Python](./subpages/python.md)\\
 [Java](./subpages/java.md)\\
-[JavaScript](./subpages/javascript.md)\\
+[JavaScript](./subpages/javaScript.md)\\
 [C++](./subpages/cpp.md)\\
 [Assembly](./subpages/assembly.md)
 
