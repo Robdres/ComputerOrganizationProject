@@ -3,8 +3,7 @@
 lan=$1
 
 if [[ $lan = 'python' ]]; then
-    echo "Python process started "
-    python3 matMul.py & top -b -d 1 > top.txt
+
     echo "Python process finished"
     cat python.txt | grep python3 | cut -c 34-39 >> python.txt
     echo "Check top.txt file for results"

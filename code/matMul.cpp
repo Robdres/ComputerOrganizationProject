@@ -1,6 +1,5 @@
 #include <stdlib.h>
 
-
 int ** randomMatrix(int n){
     int** r;
     r = new int*[n];
@@ -9,7 +8,6 @@ int ** randomMatrix(int n){
         for (j = 0;  j< n; ++j){
             r[i][j] = rand()%100;
         }
-        
     }
     return r;
 }
@@ -29,7 +27,6 @@ int ** matMul(int n ,int** m1,int** m2){
     }
     return r;
 }
-
 int main(void){
     int n = 1000;
     int ** r = randomMatrix(n);
