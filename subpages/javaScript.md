@@ -71,10 +71,12 @@ Todos los resultados se consiguieron mediante el proceso descrito en la metodolo
 Primeramente se presenta en el siguiente gráfico la relación de dimensión de la
 matriz con el tiempo de ejecución 
 
+\centering
 ![Imagen](../results/javaScriptTime.png "Tiempo de ejecución en relación a la dimensión de la matriz")
 
 Seguidamente se presentan los datos de la relación de la dimensión con la memoria utilizada
 
+\centering
 ![Imagen](../results/javaScriptMemory.png "Memoria utilizada en relación a la dimensión de la matriz")
 
 
