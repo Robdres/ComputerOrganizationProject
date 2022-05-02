@@ -1,3 +1,4 @@
+let n = 600
 //Function to generate random Matrix
 function randomMatrix(n) {
     let a = []
@@ -28,9 +29,7 @@ function matMul(a,b,n) {
     return res;
 }
 
-n = 6
-r = randomMatrix(6)
-s = matMul(r,r,6)
-console.log(s)
+let r = randomMatrix(n)
+let s = matMul(r,r,n)
 
 

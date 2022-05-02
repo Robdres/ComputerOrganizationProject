@@ -14,4 +14,13 @@ En el 2005, se presenta el artículo, _Ajax: A New Approach to Web Applications_
 escrito por Jesse James Garrett. En este se presenta por primera vez un nuevo
 paradigma para el manejo de páginas web.
 
-[Ajax model]( ./resources/javaScript1.png)
+![Ajax model]( ./resources/javaScript1.png)
+
+En este es la primera vez que se presenta a JavaScript como la base de un
+modelo que permita que los programas web tengan un aspecto y un manejo como una
+aplicación de escritorio.
+
+## Manejo de memoria ##
+
+
+
