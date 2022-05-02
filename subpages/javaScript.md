@@ -22,5 +22,7 @@ aplicación de escritorio.
 
 ## Manejo de memoria ##
 
+Asumiendo que se manejan los conceptos básicos de memoria, al hablar del uso de
+memoria dentro del lenguaje de JavaScript es muy directo. Un concepto básico
 
 
