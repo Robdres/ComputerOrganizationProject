@@ -25,6 +25,22 @@ acceder.
 
 # Resultados 
 
+[Assembly Code](../code/matMul.asm)
+
+La relación según la dimensión y el tiempo de ejecución 
+
+![assembly1](../results/assemblyTime.png "Dimension vs Time Assembly")
+
+La relación según la dimensión y el tiempo de ejecución 
+
+![assembly2](../results/assemblyMemory.png "Dimension vs Memoria Assembly")
+
+Pero aquí nos presentamos con el primer problema, el compilador nasm, que es el
+que se utilizó para las pruebas de assembly tiene una limitación de memoria virtual
+debido a que si se utiliza más podría llevar a que existan fallos de seguridad
+dentro del sistema operativo, entonces se tuvo que pasar a una maquina virtual
+donde se utilizo el compilador de Intel, y se obtuvieron los siguientes resultados
+
 
 
 
