@@ -6,9 +6,9 @@
 
 ## Objetivos:
 
-- [] Realizar un análisis comparativo de las diferentes tecnologías para el manejo de memoria
-- [] Implementar en diferentes lenguajes de programación un programa para la multiplicación de matrices
-- [] Comparar el uso de memoria y la eficiencia entre lenguajes de programación 
+- [x] Realizar un análisis comparativo de las diferentes tecnologías para el manejo de memoria
+- [x] Implementar en diferentes lenguajes de programación un programa para la multiplicación de matrices
+- [x] Comparar el uso de memoria y la eficiencia entre lenguajes de programación 
 
 ## Metodología:
 
