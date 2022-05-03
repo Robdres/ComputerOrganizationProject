@@ -1,6 +1,5 @@
 # JavaScript 
 
-
 JavaScript es un lenguaje de programa creado en el año de 1995 por Brendan
 Eich, esta inspirado en lenguaje Java, Self y Scheme. Durante los últimos
 10 años ha sido el lenguaje de programación más popular según _StackOverflow
@@ -65,7 +64,7 @@ Este proceso se basa en 3 partes:
        anterior es considerado como inútil y es considerado como basura
 
 # Resultados del experimento 
-Antes de iniciar es posible visualizar el [Codigo en Java](../code/matMul.js).
+Antes de iniciar es posible visualizar el [Codigo en JavaScript](../code/matMul.js).
 Todos los resultados se consiguieron mediante el proceso descrito en la metodología.
 
 Primeramente se presenta en el siguiente gráfico la relación de dimensión de la

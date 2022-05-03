@@ -1,8 +1,8 @@
 #Implementacion de multiplicacion de matrices 
 import random
-
+n= 300 
 low,high = 0,100
-cols,rows = 1000,1000
+cols,rows = n,n
 
 r = [random.choices(range(low,high), k=cols) for _ in range(rows)]
 

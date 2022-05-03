@@ -6,7 +6,7 @@ int ** randomMatrix(int n){
     int i,j;
     for (i = 0; i < n; ++i) {
         for (j = 0;  j< n; ++j){
-            r[i][j] = rand()%100;
+            r[i][j] = rand()%100; 
         }
     }
     return r;
@@ -27,9 +27,12 @@ int ** matMul(int n ,int** m1,int** m2){
     }
     return r;
 }
+
 int main(void){
     int n = 1000;
     int ** r = randomMatrix(n);
+    std::cout << randomMatrix[0][0] << std::endl;
+    std::cout << randomMatrix[10][0] << std::endl;
     int ** h = matMul(n,r,r);
     return 0;
 }
