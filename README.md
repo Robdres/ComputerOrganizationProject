@@ -75,7 +75,7 @@ A continuación se presenta el pseudocode que se utiliza como base del código
             return r
 
 
-###Script de prueba
+### Script de prueba
 
 Para la obtención de datos vamos a hacer uso de un script que nos permite
 encontrar los datos que estan dentro de top y obtenerlos dentro de un archivo
@@ -96,6 +96,26 @@ Con este script es posible la obtención de toda la memoria utilizada cada 0.1 s
 entonces para poder analizar y manejar es necesario tomar el valor más alto de
 cada proceso con el fin de comparar estos valores
 
+### Algoritmo de multiplicación de matrices
+
+Algo importante que hay que mencionar antes del análisis de los tiempos es que
+algoritmo de multiplicación de matrices se utilizará, en este caso ya que
+buscamos forzar a la computadora, se utiliza lo que se conoce como una
+multiplicación iterativa, de cierta manera es como la multiplicación más
+simple de matrices, y para poner en contexto es la primera que se enseña al
+momento de multiplicar matrices. Fila por columna y seguimos... 
+
+Este proceso tiene una complejidad de  __O(n^3)__, una complejidad muy alta! Es
+por eso que es importante que existen procesos y algoritmos que se han mostrado
+con una complejidad menor. Hasta la actualidad el mejor caso,es el algoritmo de
+Strassen que representa una complejidad de O(n^2.89). Pero el metodo de _divide
+and conquer_ sabemos que tenemos un mejor resultado.
+
+Es importante reconocer esto ya que existen varios casos que no se analizan
+y se sabe que es mucho más eficiente, por ejemplo, numpy, una libreria de
+python, maneja la multiplicación de matrices con un método conocido como BLAS,
+entonces, es mucho más rápido que el cúbico
+ 
 ## Multiplicación de matrices en cada lenguaje
 
 [Python](./subpages/python.md)\\
@@ -105,6 +125,15 @@ cada proceso con el fin de comparar estos valores
 [Assembly](./subpages/assembly.md)
 
 ## Resultados 
+Los resultados de todos los lenguajes se presentan a continuación,
+
+La relación de dimensión y tiempo 
+
+La relación de dimesión y memoria 
 
 ## Conclusiones
-esta son la conclusiones
+
+- 
+
+### [Referencias](./subpages/referencias.md)
+

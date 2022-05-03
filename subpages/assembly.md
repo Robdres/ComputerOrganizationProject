@@ -42,6 +42,13 @@ dentro del sistema operativo, entonces se tuvo que pasar a una maquina virtual
 donde se utilizo el compilador de Intel, y se obtuvieron los siguientes resultados
 
 
+La relación según la dimensión y el tiempo de ejecución 
+
+![assembly1](../results/assemblyTime1.png "Dimension vs Time Assembly")
+
+La relación según la dimensión y el tiempo de ejecución 
+
+![assembly2](../results/assemblyMemory1.png "Dimension vs Memoria Assembly")
 
 
     
