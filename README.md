@@ -75,6 +75,27 @@ A continuación se presenta el pseudocode que se utiliza como base del código
             return r
 
 
+###Script de prueba
+
+Para la obtención de datos vamos a hacer uso de un script que nos permite
+encontrar los datos que estan dentro de top y obtenerlos dentro de un archivo
+más manejable, ya que estamos trabajando con procesos que algunos son muy
+rápidos entonces para eso es necesario que hagamos este proceso. 
+
+El script para JavaScript es el siguiente
+
+        #!/bin/bash
+        
+        echo "Codigo Iniciado"
+        top -b -d 0.1 > top.txt & node matMul.js
+        echo "Codigo terminado"
+
+        grep node top.txt>resultados
+
+Con este script es posible la obtención de toda la memoria utilizada cada 0.1 segundos
+entonces para poder analizar y manejar es necesario tomar el valor más alto de
+cada proceso con el fin de comparar estos valores
+
 ## Multiplicación de matrices en cada lenguaje
 
 [Python](./subpages/python.md)\\
