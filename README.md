@@ -137,7 +137,13 @@ La relación de dimesión y memoria
 
 ## Conclusiones
 
-- Basado en la 
+
+- Basado en los valores presentados, el lenguaje que mejor maneja memoria es
+  relativo a la situación pero podemos ver que por ejemplo, hay lenguajes que
+  como no tienen ningun tipo de manejo de memoria a parte del ciclo de memoria,
+  tienden a utilizar una gran cantidad de memoria, por lo que no se
+  recomendaría utilizar, por ejemplo C++, sin manejar la memoria de alguna
+  forma. Son eficientes en la ejecución pero el manejo de memoria es un deficiente.
 
 ### [Referencias](./subpages/referencias.md)
 
