@@ -129,11 +129,15 @@ Los resultados de todos los lenguajes se presentan a continuación,
 
 La relación de dimensión y tiempo 
 
+![resultados](./results/resultsTime.png)
+
 La relación de dimesión y memoria 
+
+![resultados](./results/results.png)
 
 ## Conclusiones
 
-- 
+- Basado en la 
 
 ### [Referencias](./subpages/referencias.md)
 

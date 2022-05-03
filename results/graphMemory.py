@@ -4,7 +4,7 @@ import numpy as np
 from matplotlib import cycler
 
 
-language = 'cpp'
+language = 'java'
 data = pd.read_excel('./results.xlsx',sheet_name=language)
 
 color1 = '#11c700'
