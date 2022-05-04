@@ -11,7 +11,7 @@ lan4 = 'cpp'
 lan5 = 'java'
 assembly = pd.read_excel('./results.xlsx',sheet_name=lan1)
 javaScript = pd.read_excel('./results.xlsx',sheet_name=lan2)
-# python = pd.read_excel('./results.xlsx',sheet_name=lan3)
+python = pd.read_excel('./results.xlsx',sheet_name=lan3)
 cpp = pd.read_excel('./results.xlsx',sheet_name=lan4)
 java = pd.read_excel('./results.xlsx',sheet_name=lan5)
 
@@ -27,9 +27,9 @@ memoryAs      = assembly['memory']
 dimensionJs   = javaScript['dimension']
 timeJs        = javaScript['time']
 memoryJs     = javaScript['memory']
-# dimensionPy   = python['dimension']
-# timePy        = python['time']
-# memoryPy      = python['memory']
+dimensionPy   = python['dimension']
+timePy        = python['time']
+memoryPy      = python['memory']
 dimensionJava = java['dimension']
 timeJava      = java['time']
 memoryJava    = java['memory']
@@ -54,7 +54,7 @@ plt.xlabel("Dimension de la matriz cuadrada",color= color2)
 plt.ylabel("Memoria utilizada por el proceso [B]",color =color2)
 plt.plot(dimensionAs,timeAs,color= color1, label = "Assembly")
 plt.plot(dimensionJs,timeJs,color = 'red', label = "javaScript")
-# plt.plot(dimensionPy,memoryPy,color = '#0a6b5c', label = "javaScript")
+plt.plot(dimensionPy,memoryPy,color = '#0a6b5c', label = "python")
 plt.plot(dimensionJava,timeJava,color = 'white', label = "Java")
 plt.plot(dimensionCpp,timeCpp,color = 'blue', label = "Cpp")
 

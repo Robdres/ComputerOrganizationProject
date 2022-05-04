@@ -1,6 +1,6 @@
 #Implementacion de multiplicacion de matrices 
 import random
-n= 300 
+n= 1300 
 low,high = 0,100
 cols,rows = n,n
 

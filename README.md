@@ -145,5 +145,11 @@ La relación de dimesión y memoria
   recomendaría utilizar, por ejemplo C++, sin manejar la memoria de alguna
   forma. Son eficientes en la ejecución pero el manejo de memoria es un deficiente.
 
+- Para varios de los lenguajes mas eficientes como lo son C++o Assembly,
+  podemos ver que el consumo de memoria es muy grande, en si se debe a que no
+  estamos creando un buen sistema de manejo del mismo. Esta es la razon por lo
+  que en otro tipo de lenguajes, que se sabe que no son tan eficientes, tienden
+  a hacer un mejor uso de memoria
+
 ### [Referencias](./subpages/referencias.md)
 
