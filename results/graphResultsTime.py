@@ -51,10 +51,10 @@ ax = plt.axes()
 
 
 plt.xlabel("Dimension de la matriz cuadrada",color= color2)
-plt.ylabel("Memoria utilizada por el proceso [B]",color =color2)
+plt.ylabel("Tiempo del proceso [B]",color =color2)
 plt.plot(dimensionAs,timeAs,color= color1, label = "Assembly")
 plt.plot(dimensionJs,timeJs,color = 'red', label = "javaScript")
-plt.plot(dimensionPy,memoryPy,color = '#0a6b5c', label = "python")
+plt.plot(dimensionPy,timePy,color = '#0a6b5c', label = "python")
 plt.plot(dimensionJava,timeJava,color = 'white', label = "Java")
 plt.plot(dimensionCpp,timeCpp,color = 'blue', label = "Cpp")
 
