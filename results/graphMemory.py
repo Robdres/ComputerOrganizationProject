@@ -4,8 +4,8 @@ import numpy as np
 from matplotlib import cycler
 
 
-languaje = 'javaScript'
-data = pd.read_excel('./'+languaje+'.xlsx')
+language = 'assembly'
+data = pd.read_excel('./results.xlsx',sheet_name=language)
 
 color1 = '#11c700'
 color2 = '#15ff00'
@@ -34,6 +34,6 @@ plt.xlabel("Dimension de la matriz cuadrada",color= color2)
 plt.ylabel("Memoria utilizada por el proceso [B]",color =color2)
 p = plt.plot(dimension,memory,color= color1)
 ax.set_facecolor(background)
-plt.savefig('./'+languaje+'Memory.png')
+plt.savefig('./'+language+'Memory.png')
 
 print(data.head())

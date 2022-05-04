@@ -4,8 +4,8 @@ import numpy as np
 from matplotlib import cycler
 
 
-languaje = 'javaScript'
-data = pd.read_excel('./'+languaje+'.xlsx')
+languaje = 'assembly'
+data = pd.read_excel('./results.xlsx', sheet_name=languaje)
 
 color1 = '#11c700'
 color2 = '#15ff00'

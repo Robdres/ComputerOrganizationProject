@@ -238,21 +238,23 @@ L99:
 segment .data
 
         ; Declare test matrices
-matrixA DQ 2                    ; ROWS
+matrixA DQ 3                    ; ROWS
         DQ 3                    ; COLS
         DQ 1, 2, 3              ; 1st row
         DQ 4, 5, 6              ; 2nd row
+        DQ 8, 9, 10              ; 2nd row
 
 matrixB DQ 3                    ; ROWS
-        DQ 2                    ; COLS
-        DQ 1, 2                 ; 1st row
-        DQ 3, 4                 ; 2nd row
-        DQ 5, 6                 ; 3rd row
+        DQ 3                    ; COLS
+        DQ 1, 2, 4         
+        DQ 3, 4, 2        
+        DQ 5, 6, 5          
 
-matrixC DQ 2                    ; ROWS
-        DQ 2                    ; COLS
-        DQ 0, 0                 ; space for ROWS*COLS ints
-        DQ 0, 0                 ; (for filling in with matrixA*matrixB)
+matrixC DQ 3                  
+        DQ 3                 
+        DQ 0, 0 , 0            
+        DQ 0, 0 ,0              
+        DQ 0, 0 ,0               
 
 ; ---------------------------------------------------------------------
 
