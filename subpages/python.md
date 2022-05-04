@@ -2,10 +2,10 @@
 
 Python utiliza un stack privado que contiene todos los objetos y estructura de
 datos del lenguaje, por tanto, internamente posee el administrador de memoria,
-el cual gestiona el monto privado. Por tal motivo, este administrador posee
+el cual gestiona el stack privado. Por tal motivo, este administrador posee
 componentes que permiten la gestión dinámica de almacenamiento, almacenamiento
 de cache, segmentación entre otros. Cuando nos encontramos en el nivel mas
-bajo, un asignador se asegura de que exista espacio suficiente en el monto
+bajo, un asignador se asegura de que exista espacio suficiente en el stack
 privado para almacenar los datos de Python cuando existe alguna interacción,
 del mismo modo, este asignador actúa diferente para cada tipo de objeto. Por
 ejemplo, en el caso de los objetos de tipo entero, estos se administran dentro
