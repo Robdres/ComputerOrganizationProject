@@ -1,6 +1,6 @@
 # Python 
 
-Python utiliza un montón privado que contiene todos los objetos y estructura de
+Python utiliza un stack privado que contiene todos los objetos y estructura de
 datos del lenguaje, por tanto, internamente posee el administrador de memoria,
 el cual gestiona el monto privado. Por tal motivo, este administrador posee
 componentes que permiten la gestión dinámica de almacenamiento, almacenamiento
