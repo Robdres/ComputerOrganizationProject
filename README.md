@@ -87,7 +87,7 @@ El script para JavaScript es el siguiente
         #!/bin/bash
         
         echo "Codigo Iniciado"
-        top -b -d 0.1 > top.txt & node matMul.js
+        top -b -d 0.1 -n 50 > top.txt & node matMul.js
         echo "Codigo terminado"
 
         grep node top.txt>resultados
