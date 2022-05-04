@@ -1,6 +1,6 @@
-#Java
+# Java
 
-##Manejo de memoria en Java
+## Manejo de memoria en Java
 
 El manejo de memoria de Java utiliza dos esructuras para manejar los objetos y las variables. 
 
