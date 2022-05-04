@@ -66,5 +66,12 @@ para el tamaño de la matriz ya continuación agregaría cada valor a ese espaci
 reservado, ocasionando que ocupe mas espacio, pues no solo guarda el valor,
 sino que también guarda la reserva y dirección para guardar el valor.
 
-
 # Resultados
+
+Relacion dimension vs tiempo
+
+![python1](../results/pythonTime.png )
+
+Relacion dimension vs memoria
+
+![python1](../results/pythonMemory.png )
