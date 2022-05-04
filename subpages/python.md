@@ -67,7 +67,7 @@ reservado, ocasionando que ocupe mas espacio, pues no solo guarda el valor,
 sino que también guarda la reserva y dirección para guardar el valor.
 
 # Resultados
-
+[Codigo python](../code/matMul.py)
 Relacion dimension vs tiempo
 
 ![python1](../results/pythonTime.png )

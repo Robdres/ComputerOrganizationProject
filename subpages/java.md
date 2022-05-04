@@ -17,6 +17,7 @@ Para el proceso de liberar memoria del heap, Java utiliza una herrramientta que 
 Debido a que Java utiliza un garbage collector el uso de memoria de java es sumamente alto ya que va a utilizar la mayor cantidad de memoria que se lo permita antes de tener que eliminar cosas con el garbage collector. 
 
 # Resultados
+[Codigo Java](../code/matMul.java)
 
 Relación dimension vs tiempo de ejecución 
 

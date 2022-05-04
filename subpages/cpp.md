@@ -16,7 +16,7 @@ Debido a que este lenguaje no tiene un garbage collector el uso de memoria cae c
 ![Memory Managment en Cpp](./resources/cpp1.jpg) 
 
 # Resultados
-
+[Codigo C++](../code/matMul.cpp)
 Relación dimensión vs tiempo
 
 ![cpp1](../results/cppTime.png)
